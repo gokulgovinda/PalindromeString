@@ -18,6 +18,5 @@ public static void main(String[] args) {
     else{
      System.out.println(org_str+" is not palindromeString");
      }
-      
  }
  }
