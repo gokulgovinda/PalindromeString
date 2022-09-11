@@ -7,8 +7,8 @@ public static void main(String[] args) {
      System.out.println("Enter a String: ");
      String str = sc.next();
      String org_str = str;
-     
      String rev = "";
+     
      int len =str.length();
      for(int i=len-1;i>=0;i--){
          rev = rev+str.charAt(i);
@@ -16,6 +16,7 @@ public static void main(String[] args) {
     if(org_str.equals(rev)){
         System.out.println(org_str+" is palindromeString");  
     }
+     
     else{
      System.out.println(org_str+" is not palindromeString");
      }
